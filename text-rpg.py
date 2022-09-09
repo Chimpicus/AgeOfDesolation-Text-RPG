@@ -17,7 +17,7 @@ print(redText + """\
          |     | |_____| |______      |_____| |            |_____/ |______ ______| |_____| |_____ |     |    |    __|__ |_____| |  \_|
 """)
 time.sleep(1)
-print(secondaryText + " Welcome to age of desloation, a text based RPG, set in a post-apocalyptical world!")
+print(secondaryText + " Welcome to Age of Desloation, a text based RPG, set in a post-apocalyptical world!")
 print(secondaryText + " Developed by Casey Boyes")
 
 time.sleep(1.5)
@@ -30,7 +30,13 @@ input(primaryText +"""\
 
 """)
 
-input()
+input("""\
+Choose an adventure setting by entering the corresponding number.
+  - (1) Nuclear Winter
+  - (2) Trumps America
+  - (3) Z Outbreak
+
+ """)
 
 
 
