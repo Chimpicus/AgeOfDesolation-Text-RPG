@@ -38,6 +38,9 @@ input(primaryText +"""\
 """)
 time.sleep(0.5)
 setting.set()
+# print(__import__('setting').setting.scenario)
+print(secondaryText + setting.scenario + ' selected!')
+
 
 character.creation()
 
