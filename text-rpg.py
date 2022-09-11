@@ -2,16 +2,12 @@
 from colorama import init, Fore, Back, Style
 import time
 from charCreation import *
+from setting import *
 from textVariables import *
 
 # Initializes Colorama
-init(autoreset=True)
 
-# text color variables
-primaryText = Style.BRIGHT + Fore.GREEN
-secondaryText = Style.BRIGHT + Fore.BLACK 
-hostileText = Style.NORMAL + Fore.RED
-friendlyText = Style.DIM + Fore.BLUE
+
 
 print(hostileText + """\
 
@@ -41,8 +37,9 @@ input(primaryText +"""\
 
 """)
 time.sleep(0.5)
+setting.set()
 
-charCreation()
+character.creation()
 
 
 

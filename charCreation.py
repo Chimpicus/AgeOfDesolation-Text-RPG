@@ -2,35 +2,34 @@
 from textVariables import *
 import time
 
-def charCreation(): 
-  print(secondaryText + """\
+class character:
+    name = ""
+    pronouns = ""
+    health = 100
+    radiation = 0
 
-  - Character creation initialized...
-    
-    """)
-  time.sleep(0.5)
+    def creation(): 
+      print(secondaryText + """\
 
-  setSetting = input(primaryText + """\
-  > Choose an adventure setting by entering the corresponding number:
-    - (1) Nuclear Winter
-    - (2) Trumps America
-    - (3) Z Outbreak
-    - (4) Random Setting
+- Character creation initialized...
+        
+        """)
+      time.sleep(0.5)  
 
-  """)
-  
+      inputCharName = input(primaryText + """\
 
-  setCharName = input(primaryText + """\
+> What is your name?
 
-  > What is your name?
+        """)
 
-    """)
+      inputCharPronouns = input(primaryText + """\
 
-  setCharPronouns = input(primaryText + """\
+> Choose your characters pronouns by entering the corresponding number:
+  - (1) He/Him
+  - (2) She/Her
+  - (3) They/Them
 
-  > Choose your characters pronouns by entering the corresponding number:
-    - (1) He/Him
-    - (2) She/Her
-    - (3) They/Them
+        """)
 
-    """)
+      # if (inputCharPronouns == 1):
+        
