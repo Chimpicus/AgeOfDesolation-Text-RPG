@@ -30,16 +30,7 @@ class setting:
         print(warningText + "That is not a valid option!")
         time.sleep(0.5)
 
-    # while(setting.scenario == ""):
-    #   if(settingOption == 1):
-    #     setting.scenario = "Nuclear Winter"
-    #   elif(settingOption == 2):
-    #     setting.scenario = "Z-Outbreak"
-    #   elif(settingOption == 3):
-    #     setting.scenario = "Trumps America"
-    #   elif(settingOption == 4):
-    #     settingOption = random.randint(1, 3)
-    #   else: print("Error")
+    
     
 
     
